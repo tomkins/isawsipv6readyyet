@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "account",
+    "name": "AWS Account Management",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "amplify",
+    "name": "AWS Amplify",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "amplifybackend",
+    "name": "AWS Amplify Admin",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appmesh",
+    "name": "AWS App Mesh",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "apprunner",
+    "name": "AWS App Runner",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appsync",
+    "name": "AWS AppSync",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "applicationcostprofiler",
+    "name": "AWS Application Cost Profiler",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "discovery",
+    "name": "AWS Application Discovery Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mgn",
+    "name": "AWS Application Migration Service (MGN)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "artifact",
+    "name": "AWS Artifact",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "auditmanager",
+    "name": "AWS Audit Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "application-autoscaling",
+    "name": "AWS Auto Scaling",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "backup",
+    "name": "AWS Backup",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "backup-gateway",
+    "name": "AWS Backup Gateway",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "backupstorage",
+    "name": "AWS Backup Storage",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "batch",
+    "name": "AWS Batch",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "billingconductor",
+    "name": "AWS Billing Conductor",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "budgets",
+    "name": "AWS Budgets",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "acm",
+    "name": "AWS Certificate Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chatbot",
+    "name": "AWS Chatbot",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk-meetings",
+    "name": "AWS Chime Meetings SDK",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cleanrooms",
+    "name": "AWS Clean Rooms",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudcontrolapi",
+    "name": "AWS Cloud Control API",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "servicediscovery",
+    "name": "AWS Cloud Map",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloud9",
+    "name": "AWS Cloud9",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudformation",
+    "name": "AWS CloudFormation",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudhsmv2",
+    "name": "AWS CloudHSM",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudshell",
+    "name": "AWS CloudShell",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudtrail",
+    "name": "AWS CloudTrail",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudtrail-data",
+    "name": "AWS CloudTrail Data Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codeartifact",
+    "name": "AWS CodeArtifact",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codebuild",
+    "name": "AWS CodeBuild",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codecommit",
+    "name": "AWS CodeCommit",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codedeploy",
+    "name": "AWS CodeDeploy",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codepipeline",
+    "name": "AWS CodePipeline",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codestar",
+    "name": "AWS CodeStar",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codestar-notifications",
+    "name": "AWS CodeStar Notifications",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "compute-optimizer",
+    "name": "AWS Compute Optimizer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "config",
+    "name": "AWS Config",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "controltower",
+    "name": "AWS Control Tower",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "costexplorer",
+    "name": "AWS Cost Explorer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cur",
+    "name": "AWS Cost and Usage Report",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dataexchange",
+    "name": "AWS Data Exchange",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "datapipeline",
+    "name": "AWS Data Pipeline",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "datasync",
+    "name": "AWS DataSync",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dms",
+    "name": "AWS Database Migration Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "deepcomposer",
+    "name": "AWS DeepComposer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "deeplens",
+    "name": "AWS DeepLens",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "deepracer",
+    "name": "AWS DeepRacer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "devicefarm",
+    "name": "AWS Device Farm",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "directconnect",
+    "name": "AWS Direct Connect",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ds",
+    "name": "AWS Directory Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "elasticbeanstalk",
+    "name": "AWS Elastic Beanstalk",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "drs",
+    "name": "AWS Elastic Disaster Recovery (DRS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediaconnect",
+    "name": "AWS Elemental MediaConnect",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediaconvert",
+    "name": "AWS Elemental MediaConvert",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "medialive",
+    "name": "AWS Elemental MediaLive",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediapackage",
+    "name": "AWS Elemental MediaPackage",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediapackagev2",
+    "name": "AWS Elemental MediaPackage V2",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediapackage-vod",
+    "name": "AWS Elemental MediaPackage VOD",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediastore",
+    "name": "AWS Elemental MediaStore",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediastore-data",
+    "name": "AWS Elemental MediaStore Data Plane",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mediatailor",
+    "name": "AWS Elemental MediaTailor",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "schemas",
+    "name": "AWS EventBridge Schemas",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pipes",
+    "name": "AWS Events Pipes",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fargate",
+    "name": "AWS Fargate",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fis",
+    "name": "AWS Fault Injection Simulator",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fms",
+    "name": "AWS Firewall Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "globalaccelerator",
+    "name": "AWS Global Accelerator",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "glue",
+    "name": "AWS Glue",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "databrew",
+    "name": "AWS Glue DataBrew",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "groundstation",
+    "name": "AWS Ground Station",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "health",
+    "name": "AWS Health APIs And Notifications",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "awshealthdashboard",
+    "name": "AWS Health Dashboard",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "medical-imaging",
+    "name": "AWS HealthImaging",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "accessanalyzer",
+    "name": "AWS IAM Access Analyzer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "identity-center",
+    "name": "AWS IAM Identity Center",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "aiq",
+    "name": "AWS IQ",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iam",
+    "name": "AWS Identity and Access Management (IAM)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rolesanywhere",
+    "name": "AWS Identity and Access Management Roles Anywhere",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "importexport",
+    "name": "AWS Import/Export",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iot-data",
+    "name": "AWS IoT (data plane)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iot1click-projects",
+    "name": "AWS IoT 1-Click",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iot1click-devices",
+    "name": "AWS IoT 1-Click Devices Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotanalytics",
+    "name": "AWS IoT Analytics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iot",
+    "name": "AWS IoT Core",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotdeviceadvisor",
+    "name": "AWS IoT Device Advisor",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotdevicedefender",
+    "name": "AWS IoT Device Defender",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotdevicemanagement",
+    "name": "AWS IoT Device Management",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotevents",
+    "name": "AWS IoT Events",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotevents-data",
+    "name": "AWS IoT Events Data",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotfleethub",
+    "name": "AWS IoT Fleet Hub",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotfleetwise",
+    "name": "AWS IoT FleetWise",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "greengrass",
+    "name": "AWS IoT Greengrass",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iot-roborunner",
+    "name": "AWS IoT RoboRunner",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotsecuretunneling",
+    "name": "AWS IoT Secured Tunneling",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotsitewise",
+    "name": "AWS IoT SiteWise",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iottwinmaker",
+    "name": "AWS IoT TwinMaker",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kms",
+    "name": "AWS Key Management Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lakeformation",
+    "name": "AWS Lake Formation",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lambda",
+    "name": "AWS Lambda",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "launchwizard",
+    "name": "AWS Launch Wizard",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "license-manager",
+    "name": "AWS License Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "license-manager-linux-subscriptions",
+    "name": "AWS License Manager Linux Subscriptions",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "license-manager-user-subscriptions",
+    "name": "AWS License Manager User Subscriptions",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "m2",
+    "name": "AWS Mainframe Modernization",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "managedservices",
+    "name": "AWS Managed Services",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "marketplace",
+    "name": "AWS Marketplace",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "marketplace-catalog",
+    "name": "AWS Marketplace Catalog API",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "marketplacecommerceanalytics",
+    "name": "AWS Marketplace Commerce Analytics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "marketplace-entitlement",
+    "name": "AWS Marketplace Entitlement Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "meteringmarketplace",
+    "name": "AWS Marketplace Metering Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mgh",
+    "name": "AWS Migration Hub",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "migration-hub-refactor-spaces",
+    "name": "AWS Migration Hub Refactor Spaces",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mobile",
+    "name": "AWS Mobile Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "network-firewall",
+    "name": "AWS Network Firewall",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "opsworks",
+    "name": "AWS OpsWorks Stacks",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "opsworkschefautomate",
+    "name": "AWS OpsWorks for Chef Automate",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "opsworkscm",
+    "name": "AWS OpsWorks for Chef Automate",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "opsworkspuppetenterprise",
+    "name": "AWS OpsWorks for Puppet Enterprise",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "organizations",
+    "name": "AWS Organizations",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "outposts",
+    "name": "AWS Outposts",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "panorama",
+    "name": "AWS Panorama",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pricing",
+    "name": "AWS Price List Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "privatenetworks",
+    "name": "AWS Private 5G",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "acm-pca",
+    "name": "AWS Private Certificate Authority",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "privatelink",
+    "name": "AWS PrivateLink",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "proton",
+    "name": "AWS Proton",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rbin",
+    "name": "AWS Recycle Bin",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "resiliencehub",
+    "name": "AWS Resilience Hub",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ram",
+    "name": "AWS Resource Access Manager (RAM)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "resource-explorer-2",
+    "name": "AWS Resource Explorer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "resource-groups",
+    "name": "AWS Resource Groups",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "resourcegroupstaggingapi",
+    "name": "AWS Resource Groups Tagging API",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "robomaker",
+    "name": "AWS RoboMaker",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "route53-recovery-readiness",
+    "name": "AWS Route53 Recovery Readiness",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "s3control",
+    "name": "AWS S3 Control",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "s3outposts",
+    "name": "AWS S3 for Outposts",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "savingsplans",
+    "name": "AWS Savings Plans",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "secretsmanager",
+    "name": "AWS Secrets Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "securityhub",
+    "name": "AWS Security Hub",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sts",
+    "name": "AWS Security Token Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sms",
+    "name": "AWS Server Migration Service (SMS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "serverlessrepo",
+    "name": "AWS Serverless Application Repository",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "servicecatalog",
+    "name": "AWS Service Catalog",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "servicecatalog-appregistry",
+    "name": "AWS Service Catalog App Registry",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "shield",
+    "name": "AWS Shield",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "signer",
+    "name": "AWS Signer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "simspaceweaver",
+    "name": "AWS SimSpace Weaver",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sso-oidc",
+    "name": "AWS Single Sign-On (SSO) OpenID Connect Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "snowball",
+    "name": "AWS Snowball",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "snowcone",
+    "name": "AWS Snowcone",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "snowmobile",
+    "name": "AWS Snowmobile",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "stepfunctions",
+    "name": "AWS Step Functions",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "storagegateway",
+    "name": "AWS Storage Gateway",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "support",
+    "name": "AWS Support",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "support-app",
+    "name": "AWS Support App",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ssm",
+    "name": "AWS Systems Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ssm-contacts",
+    "name": "AWS Systems Manager Incident Manager Contacts",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ssm-sap",
+    "name": "AWS Systems Manager for SAP",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "timestream-write",
+    "name": "AWS Timestream Write Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "transfer",
+    "name": "AWS Transfer Family",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "transitgateway",
+    "name": "AWS Transit Gateway",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "trustedadvisor",
+    "name": "AWS Trusted Advisor",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "notifications",
+    "name": "AWS User Notifications",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "vpn",
+    "name": "AWS VPN",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "verified-access",
+    "name": "AWS Verified Access",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "waf",
+    "name": "AWS WAF",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "waf-regional",
+    "name": "AWS WAF Regional",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "wellarchitectedtool",
+    "name": "AWS Well-Architected Tool",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "wickr",
+    "name": "AWS Wickr",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "xray",
+    "name": "AWS X-Ray",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "identitystore",
+    "name": "AWSIdentityStore",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dlm",
+    "name": "AWSdlm",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "apigateway",
+    "name": "Amazon API Gateway",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "apigatewayv2",
+    "name": "Amazon API Gateway V2",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appconfig",
+    "name": "Amazon AppConfig",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appflow",
+    "name": "Amazon AppFlow",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appstream",
+    "name": "Amazon AppStream 2.0",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "athena",
+    "name": "Amazon Athena",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "augmentedairuntime",
+    "name": "Amazon Augmented AI (A2I)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "aurora",
+    "name": "Amazon Aurora",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "braket",
+    "name": "Amazon Braket",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime",
+    "name": "Amazon Chime",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk-messaging",
+    "name": "Amazon Chime Messaging",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk",
+    "name": "Amazon Chime SDK",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk-media-pipelines",
+    "name": "Amazon Chime SDK Media Pipelines",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk-voice",
+    "name": "Amazon Chime SDK Voice",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "clouddirectory",
+    "name": "Amazon Cloud Directory",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudfront",
+    "name": "Amazon CloudFront",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudsearch",
+    "name": "Amazon CloudSearch",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudwatch",
+    "name": "Amazon CloudWatch",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "application-insights",
+    "name": "Amazon CloudWatch Application Insights",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "events",
+    "name": "Amazon CloudWatch Events",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "evidently",
+    "name": "Amazon CloudWatch Evidently",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "logs",
+    "name": "Amazon CloudWatch Logs",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "synthetics",
+    "name": "Amazon CloudWatch Synthetics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codecatalyst",
+    "name": "Amazon CodeCatalyst",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codeguruprofiler",
+    "name": "Amazon CodeGuru",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codeguru-reviewer",
+    "name": "Amazon CodeGuru Reviewer",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cognito-identity",
+    "name": "Amazon Cognito",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cognito-idp",
+    "name": "Amazon Cognito Identity User Pools",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cognito-sync",
+    "name": "Amazon Cognito Sync",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "comprehend",
+    "name": "Amazon Comprehend",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "comprehendmedical",
+    "name": "Amazon Comprehend Medical",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "connect",
+    "name": "Amazon Connect",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "connectcampaigns",
+    "name": "Amazon Connect Campaign Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "connectcases",
+    "name": "Amazon Connect Cases",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "connect-contact-lens",
+    "name": "Amazon Connect Contact Lens",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "customer-profiles",
+    "name": "Amazon Connect Customer Profiles",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "connectparticipant",
+    "name": "Amazon Connect Participant Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "wisdom",
+    "name": "Amazon Connect Wisdom Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "detective",
+    "name": "Amazon Detective",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "devops-guru",
+    "name": "Amazon DevOps Guru",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "docdb",
+    "name": "Amazon DocumentDB (with MongoDB compatibility)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dynamodb",
+    "name": "Amazon DynamoDB",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dax",
+    "name": "Amazon DynamoDB Accelerator",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "dynamodbstreams",
+    "name": "Amazon DynamoDB Streams",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "autoscaling",
+    "name": "Amazon EC2 Auto Scaling",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "emr-containers",
+    "name": "Amazon EMR Containers",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "emr-serverless",
+    "name": "Amazon EMR Serverless",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "elasticache",
+    "name": "Amazon ElastiCache",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ebs",
+    "name": "Amazon Elastic Block Store (EBS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ec2",
+    "name": "Amazon Elastic Compute Cloud (EC2)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ecr",
+    "name": "Amazon Elastic Container Registry (ECR)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ecr-public",
+    "name": "Amazon Elastic Container Registry Public",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ecs",
+    "name": "Amazon Elastic Container Service (ECS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "efs",
+    "name": "Amazon Elastic File System (EFS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "elastic-inference",
+    "name": "Amazon Elastic Inference",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "eks",
+    "name": "Amazon Elastic Kubernetes Service (EKS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "emr",
+    "name": "Amazon Elastic MapReduce (EMR)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "elastictranscoder",
+    "name": "Amazon Elastic Transcoder",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "eventbridge",
+    "name": "Amazon EventBridge",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fsx",
+    "name": "Amazon FSx",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fsx-lustre",
+    "name": "Amazon FSx for Lustre",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fsx-ontap",
+    "name": "Amazon FSx for NetApp ONTAP",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fsx-openzfs",
+    "name": "Amazon FSx for OpenZFS",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "fsx-windows",
+    "name": "Amazon FSx for Windows File Server",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "filecache",
+    "name": "Amazon File Cache",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "finspace",
+    "name": "Amazon FinSpace",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "finspace-data",
+    "name": "Amazon FinSpace Beta API",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "forecast",
+    "name": "Amazon Forecast",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "forecastquery",
+    "name": "Amazon Forecast Query",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "frauddetector",
+    "name": "Amazon Fraud Detector",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "gamelift",
+    "name": "Amazon GameLift",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "gamesparks",
+    "name": "Amazon GameSparks",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "glacier",
+    "name": "Amazon Glacier",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "guardduty",
+    "name": "Amazon GuardDuty",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ahl",
+    "name": "Amazon HealthLake",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "honeycode",
+    "name": "Amazon Honeycode",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ivs",
+    "name": "Amazon IVS",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ivschat",
+    "name": "Amazon IVS Chat",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "inspector2",
+    "name": "Amazon Inspector",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "inspector",
+    "name": "Amazon Inspector Classic",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ivs-realtime",
+    "name": "Amazon Interactive Video Service RealTime",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kendra",
+    "name": "Amazon Kendra",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kendra-ranking",
+    "name": "Amazon Kendra Intelligent Ranking",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mcs",
+    "name": "Amazon Keyspaces (for Apache Cassandra)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kinesisanalytics",
+    "name": "Amazon Kinesis Data Analytics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "firehose",
+    "name": "Amazon Kinesis Data Firehose",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kinesis",
+    "name": "Amazon Kinesis Data Streams",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kinesisvideo",
+    "name": "Amazon Kinesis Video Streams",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lex-runtime",
+    "name": "Amazon Lex",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lex-models",
+    "name": "Amazon Lex Model Building Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lexv2-models",
+    "name": "Amazon Lex Model Building V2",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lightsail",
+    "name": "Amazon Lightsail",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "amazonlocationservice",
+    "name": "Amazon Location Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lookoutequipment",
+    "name": "Amazon Lookout for Equipment",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lookoutmetrics",
+    "name": "Amazon Lookout for Metrics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lookoutvision",
+    "name": "Amazon Lookout for Vision",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "lumberyard",
+    "name": "Amazon Lumberyard",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mq",
+    "name": "Amazon MQ",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "machinelearning",
+    "name": "Amazon Machine Learning",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "macie",
+    "name": "Amazon Macie",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "managedblockchain",
+    "name": "Amazon Managed Blockchain",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "grafana",
+    "name": "Amazon Managed Grafana",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "aps",
+    "name": "Amazon Managed Service for Prometheus",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kafka",
+    "name": "Amazon Managed Streaming for Apache Kafka",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mwaa",
+    "name": "Amazon Managed Workflows for Apache Airflow",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "mturk",
+    "name": "Amazon Mechanical Turk",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "memorydb",
+    "name": "Amazon MemoryDB for Redis",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "monitron",
+    "name": "Amazon Monitron",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "neptune",
+    "name": "Amazon Neptune",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "nimble",
+    "name": "Amazon Nimble Studio",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "omics",
+    "name": "Amazon Omics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "osis",
+    "name": "Amazon OpenSearch Ingestion Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "opensearchserverless",
+    "name": "Amazon OpenSearch Serverless",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "es",
+    "name": "Amazon OpenSearch Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "personalize",
+    "name": "Amazon Personalize",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pinpoint",
+    "name": "Amazon Pinpoint",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pinpoint-email",
+    "name": "Amazon Pinpoint Email Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pinpoint-sms-voice",
+    "name": "Amazon Pinpoint SMS Voice",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pinpoint-sms-voice-v2",
+    "name": "Amazon Pinpoint SMS Voice V2",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sms-voice",
+    "name": "Amazon Pinpoint SMS and Voice Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "polly",
+    "name": "Amazon Polly",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "qldb-session",
+    "name": "Amazon QLDB Session",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "qldb",
+    "name": "Amazon Quantum Ledger Database (QLDB)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "quicksight",
+    "name": "Amazon QuickSight",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rdsvmware",
+    "name": "Amazon RDS on VMware",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "redshift",
+    "name": "Amazon Redshift",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rekognition",
+    "name": "Amazon Rekognition",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rds",
+    "name": "Amazon Relational Database Service (RDS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "route53",
+    "name": "Amazon Route 53",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "route53domains",
+    "name": "Amazon Route 53 Domains",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "route53resolver",
+    "name": "Amazon Route 53 Resolver",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sagemaker-runtime",
+    "name": "Amazon SageMaker",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sagemaker",
+    "name": "Amazon SageMaker",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sagemaker-featurestore-runtime",
+    "name": "Amazon SageMaker Feature Store Runtime",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sagemaker-metrics",
+    "name": "Amazon SageMaker Metrics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "securitylake",
+    "name": "Amazon Security Lake",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ses",
+    "name": "Amazon Simple Email Service (SES)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sns",
+    "name": "Amazon Simple Notification Service (SNS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sqs",
+    "name": "Amazon Simple Queue Service (SQS)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "s3",
+    "name": "Amazon Simple Storage Service (S3)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "swf",
+    "name": "Amazon Simple Workflow Service (SWF)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sdb",
+    "name": "Amazon SimpleDB",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "textract",
+    "name": "Amazon Textract",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "timestream",
+    "name": "Amazon Timestream",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "transcribe",
+    "name": "Amazon Transcribe",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "translate",
+    "name": "Amazon Translate",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "vpc-lattice",
+    "name": "Amazon VPC Lattice",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "verifiedpermissions",
+    "name": "Amazon Verified Permissions",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "vpc",
+    "name": "Amazon Virtual Private Cloud (VPC)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "voice-id",
+    "name": "Amazon Voice ID",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "workdocs",
+    "name": "Amazon WorkDocs",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "workmail",
+    "name": "Amazon WorkMail",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "workmailmessageflow",
+    "name": "Amazon WorkMail Message Flow",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "workspaces",
+    "name": "Amazon WorkSpaces",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "wam",
+    "name": "Amazon WorkSpaces Application Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "workspaces-web",
+    "name": "Amazon WorkSpaces Web",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "apigatewaymanagementapi",
+    "name": "AmazonApiGatewayManagementApi",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appintegrations",
+    "name": "AmazonAppIntegrationService",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "amplifyuibuilder",
+    "name": "AmplifyUIBuilder",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "appconfigdata",
+    "name": "AppConfigData",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "chime-sdk-identity",
+    "name": "ChimeSDK Identity",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudenduredisasterrecovery",
+    "name": "CloudEndure Disaster Recovery",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "cloudenduremigration",
+    "name": "CloudEndure Migration",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "codestar-connections",
+    "name": "CodeStar Connections",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "imagebuilder",
+    "name": "EC2 Image Builder",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "elb",
+    "name": "Elastic Load Balancing",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "freertosota",
+    "name": "FreeRTOS",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "internetmonitor",
+    "name": "Internet Monitor",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "iotwireless",
+    "name": "IoTWirelessConnectivity",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "kafkaconnect",
+    "name": "Managed Streaming for Kafka Connect Engine",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "migrationhuborchestrator",
+    "name": "Migration Hub Orchestrator",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "migrationhubstrategy",
+    "name": "Migration Hub Strategy Recommendations",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "networkmanager",
+    "name": "NetworkManager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "oam",
+    "name": "Observability Access Manager",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rds-data",
+    "name": "RDS Data",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rum",
+    "name": "RUMControlPlaneLambda",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "rosa",
+    "name": "Red Hat OpenShift Service on AWS (ROSA)",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "redshift-data",
+    "name": "Redshift Data API Service",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "arc-zonal-shift",
+    "name": "Route53 Application Recovery Controller - Zonal Shift",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "ssm-incidents",
+    "name": "SSM Incidents",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "sagemaker-geospatial",
+    "name": "SageMaker Geospatial",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "scheduler",
+    "name": "Scheduler",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "service-quotas",
+    "name": "Service Quotas",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "snow-device-management",
+    "name": "SnowDeviceManagement",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "vmwarecloudonaws",
+    "name": "VMware Cloud on AWS",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "pi",
+    "name": "performanceinsights",
+    "score": null,
+    "updated": "2023-08-01"
+  }
+]

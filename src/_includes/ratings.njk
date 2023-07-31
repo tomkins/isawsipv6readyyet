@@ -1,0 +1,18 @@
+{% extends "base.njk" %}
+
+
+{% block main %}
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a href="{{ '/ratings/' | url }}" class="nav-link active" aria-current="page">Rated</a>
+    </li>
+    <li class="nav-item">
+      <a href="{{ '/ratings/no-rating/' | url }}" class="nav-link">No Rating</a>
+    </li>
+    <li class="nav-item">
+      <a href="{{ '/ratings/all/' | url }}" class="nav-link">All</a>
+    </li>
+  </ul>
+
+  {{ content | safe }}
+{% endblock main %}
