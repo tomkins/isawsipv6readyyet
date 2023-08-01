@@ -1,3 +1,1 @@
-"use strict";
-
-import "bootstrap";
+import "bootstrap/js/src/collapse";
