@@ -3,11 +3,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
-
-// Webpack clean dist
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-// const autoprefixer = require('autoprefixer')
-// const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const config = {
     entry: {
@@ -32,11 +28,6 @@ module.exports = [
             // Dist clean
             new CleanWebpackPlugin({
                 cleanStaleWebpackAssets: false
-            }),
-
-            new MiniCssExtractPlugin({
-                filename: 'css/[name].css',
-                chunkFilename: 'css/[id].css'
             }),
 
             // Stylelint plugin
