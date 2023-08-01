@@ -11,7 +11,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
     entry: {
-        styles: ['./src/scss/styles.scss']
+        styles: ['./src/static/scss/styles.scss'],
+        main: ['./src/static/js/main.js']
     },
     output: {
         path: path.resolve('./_site/static/'),

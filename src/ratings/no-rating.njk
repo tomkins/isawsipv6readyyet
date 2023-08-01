@@ -1,6 +1,6 @@
 ---
 layout: ratings
-permalink: '/ratings/no-rating/'
+title: List of AWS services without an IPv6 rating
 ---
 
 <table class="table">
@@ -12,7 +12,7 @@ permalink: '/ratings/no-rating/'
     </tr>
   </thead>
   <tbody>
-    {% for service in services %}
+    {% for service in aws_services.unrated_services %}
       <tr>
         <td>{{ service.name }}</td>
         <td>

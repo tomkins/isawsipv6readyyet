@@ -1,0 +1,36 @@
+@import "bootstrap/scss/bootstrap";
+
+.service-showhide {
+    width: 1em;
+
+    .btn {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        &:after {
+            content: '-';
+        }
+        &.collapsed:after {
+            content: '+';
+        }
+    }
+}
+
+.service-detail {
+    .service-name {
+        font-weight: bold;
+    }
+
+    ul {
+        padding-top: 1em;
+        padding-left: 1em;
+    }
+}
+
+.service-score {
+    width: 5em;
+}
+
+.service-updated {
+    width: 7.5em;
+}

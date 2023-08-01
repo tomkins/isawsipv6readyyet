@@ -8,13 +8,19 @@
   {
     "id": "amplify",
     "name": "AWS Amplify",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "All service endpoints are IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "amplifybackend",
     "name": "AWS Amplify Admin",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "All service endpoints are IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1136,7 +1142,13 @@
   {
     "id": "cloudfront",
     "name": "Amazon CloudFront",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Distributions can be IPv6 enabled, this is defaulted to enabled in the web console",
+      "Origin pull is IPv4 only, fetching data over IPv6 is unsupported",
+      "CloudFront-Viewer-Address header is not <a href='https://twitter.com/alextomkins/status/1459534202207195139'>enclosed in brackets</a>"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1334,25 +1346,45 @@
   {
     "id": "ebs",
     "name": "Amazon Elastic Block Store (EBS)",
-    "score": null,
+    "score": 4,
+    "notes": [
+      "Service endpoint is IPv6 all regions",
+      "API to manage volumes and snapshots are part of the EC2 service endpoint, which has mixed IPv6 support"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "ec2",
     "name": "Amazon Elastic Compute Cloud (EC2)",
-    "score": null,
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv6 in some regions only",
+      "EC2 instances can be allocated a public IPv6 address",
+      "EC2 instances can be allocated a routed IPv6 subnet",
+      "EC2 instances can't be allocated an IPv6 address and subnet simultaneously",
+      "Good support for internal endpoints (IMDS, NTP, DNS)",
+      "EC2 instances can be IPv6 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "ecr",
     "name": "Amazon Elastic Container Registry (ECR)",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "All service endpoints are IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "ecr-public",
     "name": "Amazon Elastic Container Registry Public",
-    "score": null,
+    "score": 1,
+    "notes": [
+      "All service endpoints are IPv4 only",
+      "public.ecr.aws is IPv4 only",
+      "<a href='https://gallery.ecr.aws/'>ECR Public Gallery website</a> has AAAA records"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1808,7 +1840,15 @@
   {
     "id": "rds",
     "name": "Amazon Relational Database Service (RDS)",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "Amazon RDS service endpoints have AAAA records",
+      "Amazon RDS Performance Insights service endpoints have AAAA records",
+      "Database instances have <a href='https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html#USER_VPC.IP_addressing.IPv6'>IPv6 support</a>",
+      "Can't enable public IPv4 when choosing dual stack",
+      "IPv6 only subnets are not supported",
+      "Public IPv6 connectivity is not supported"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -2036,7 +2076,12 @@
   {
     "id": "elb",
     "name": "Elastic Load Balancing",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Load balancers have dual stack support",
+      "Load balancers can't be IPv6 only, forcing users to have a public IPv4 address per availability zone"
+    ],
     "updated": "2023-08-01"
   },
   {
