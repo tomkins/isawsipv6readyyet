@@ -116,7 +116,11 @@
   {
     "id": "acm",
     "name": "AWS Certificate Manager",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "TODO: Check if DNS/email validation could work over IPv6 only?"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -842,7 +846,10 @@
   {
     "id": "secretsmanager",
     "name": "AWS Secrets Manager",
-    "score": null,
+    "score": 4,
+    "notes": [
+      "Service endpoints have AAAA records"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1854,19 +1861,31 @@
   {
     "id": "route53",
     "name": "Amazon Route 53",
-    "score": null,
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "DNS servers for hosted domains are dual stack",
+      "Health checks can connect to IPv6 servers"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "route53domains",
     "name": "Amazon Route 53 Domains",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "route53resolver",
     "name": "Amazon Route 53 Resolver",
-    "score": null,
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Endpoint can be IPv4, IPv6 or dual stack"
+    ],
     "updated": "2023-08-01"
   },
   {
