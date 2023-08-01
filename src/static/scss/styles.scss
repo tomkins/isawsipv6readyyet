@@ -2,25 +2,12 @@
 $bootstrap-icons-font-src: url("~bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("~bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
 @import "~bootstrap-icons/font/bootstrap-icons";
 
-.service-showhide {
-    width: 1em;
-
-    .btn {
-        padding-top: 0;
-        padding-bottom: 0;
-
-        &:after {
-            content: '-';
-        }
-        &.collapsed:after {
-            content: '+';
-        }
-    }
-}
-
 .service-detail {
-    .service-name {
-        font-weight: bold;
+    .service-showhide::after {
+        content: '-';
+    }
+    .service-name.collapsed .service-showhide::after {
+        content: '+';
     }
 
     ul {

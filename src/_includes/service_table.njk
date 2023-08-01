@@ -2,7 +2,7 @@
   <table class="table">
     <thead>
       <tr>
-        <th colspan="2" scope="col">Service</th>
+        <th scope="col">Service</th>
         <th scope="col">Rating</th>
         <th scope="col">Updated</th>
       </tr>
@@ -10,13 +10,14 @@
     <tbody>
       {% for service in service_list %}
         <tr>
-          <td class="service-showhide">
-            {% if service.notes %}
-              <button class="service-showhide btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#service-{{ service.id }}" aria-expanded="false" aria-controls="service-{{ service.id }}"></button>
-            {% endif %}
-          </td>
           <td class="service-detail">
-            <span class="service-name">{{ service.name }}</span>
+            <a href="#service-{{ service.id }}" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="service-{{ service.id }}" class="service-name text-decoration-none text-reset fw-bold collapsed">
+              {% if service.notes %}
+                <span class="service-showhide fw-normal"></span>
+              {% endif %}
+
+              {{ service.name }}
+            </a>
 
             {% if service.notes %}
               <ul id="service-{{ service.id }}" class="collapse">
