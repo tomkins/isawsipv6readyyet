@@ -1,7 +1,7 @@
 {% extends "base.njk" %}
 
 
-{% block main %}
+{% block content %}
   <ul class="nav nav-tabs">
     <li class="nav-item">
       <a href="{{ '/ratings/' | url }}" class="nav-link {% if page.url == '/ratings/' %}active{% endif %}">Rated</a>
@@ -15,4 +15,4 @@
   </ul>
 
   {{ content | safe }}
-{% endblock main %}
+{% endblock content %}

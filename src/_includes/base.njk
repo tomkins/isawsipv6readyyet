@@ -32,13 +32,15 @@
     <div id="app">
       <div id="main-container" role="document">
         <main role="main">
+          {% block main %}
           <div class="container-xxl">
             <div class="col-md-9 px-3 mx-auto">
-              {% block main %}
+              {% block content %}
               {{ content | safe }}
-              {% endblock main %}
+              {% endblock content %}
             </div>
           </div>
+          {% endblock main %}
         </main>
       </div>
     </div>
