@@ -420,7 +420,12 @@
   {
     "id": "globalaccelerator",
     "name": "AWS Global Accelerator",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Accelerator can be dual stack, however the web console defaults to IPv4 only",
+      "Accelerator can't be IPv6 only, forcing 2 IPv4 addresses to be used"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -762,7 +767,10 @@
   {
     "id": "acm-pca",
     "name": "AWS Private Certificate Authority",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1329,7 +1337,10 @@
   {
     "id": "autoscaling",
     "name": "Amazon EC2 Auto Scaling",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1397,7 +1408,14 @@
   {
     "id": "ecs",
     "name": "Amazon Elastic Container Service (ECS)",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "ECS service endpoint is IPv4 only",
+      "ECS service connect endpoint has AAAA records",
+      "ECS tasks with awsvpc networking mode can get an IPv6 address",
+      "ECS tasks with host networking mode can communicate over IPv6",
+      "ECS tasks with host networking are not allocated an individual routed IPv6 address"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1921,7 +1939,13 @@
   {
     "id": "ses",
     "name": "Amazon Simple Email Service (SES)",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "SMTP endpoint is IPv4 only",
+      "Email receiving endpoint is IPv4 only",
+      "Outbound email delivery is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1933,7 +1957,10 @@
   {
     "id": "sqs",
     "name": "Amazon Simple Queue Service (SQS)",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
