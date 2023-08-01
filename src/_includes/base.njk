@@ -8,6 +8,7 @@
 
     {% if meta.environment == "production" %}
       <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}">
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "528955f788a54b81b7abd21972229cdc"}'></script>
     {% else %}
       <script src="{{ '/static/js/styles.js' | url }}"></script>
     {% endif %}
