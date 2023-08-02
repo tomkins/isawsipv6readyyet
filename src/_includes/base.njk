@@ -6,6 +6,13 @@
 
     <title>{% if title %}{{ title }} - {% endif %}Is AWS IPv6 ready yet?</title>
 
+    <meta property="og:title" content="{% if title %}{{ title }} - {% endif %}Is AWS IPv6 ready yet?">
+    <meta property="og:description" content="We're rating all AWS services to ask the question - Is AWS IPv6 ready yet?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ '/static/img/share_logo.png' | htmlBaseUrl }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
     {% if meta.environment == "production" %}
       <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}">
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "528955f788a54b81b7abd21972229cdc"}'></script>

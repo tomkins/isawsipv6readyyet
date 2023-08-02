@@ -3,7 +3,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const config = {
     entry: {
@@ -25,11 +24,6 @@ module.exports = [
         output: config.output,
 
         plugins: [
-            // Dist clean
-            new CleanWebpackPlugin({
-                cleanStaleWebpackAssets: false
-            }),
-
             // Stylelint plugin
             new StyleLintPlugin({
                 configFile: '.stylelintrc',
