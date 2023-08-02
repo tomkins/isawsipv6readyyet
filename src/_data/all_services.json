@@ -469,20 +469,20 @@
   {
     "id": "health",
     "name": "AWS Health APIs And Notifications",
-    "score": 2,
+    "score": 0,
     "notes": [
       "Service endpoint is IPv4 only"
     ],
-    "updated": "2023-08-01"
+    "updated": "2023-08-02"
   },
   {
     "id": "awshealthdashboard",
     "name": "AWS Health Dashboard",
-    "score": 2,
+    "score": 0,
     "notes": [
       "<a href='https://health.aws.amazon.com/'>health.aws.amazon.com</a> is IPv4 only"
     ],
-    "updated": "2023-08-01"
+    "updated": "2023-08-02"
   },
   {
     "id": "medical-imaging",
