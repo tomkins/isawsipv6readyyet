@@ -11,7 +11,7 @@
       {% for service in service_list %}
         <tr>
           <td class="service-detail">
-            <a href="#service-{{ service.id }}" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="service-{{ service.id }}" class="service-name text-decoration-none text-reset fw-bold collapsed">
+            <a href="#" role="button" data-bs-toggle="collapse" data-bs-target="#service-{{ service.id }}" aria aria-expanded="false" aria-controls="service-{{ service.id }}" class="service-name text-decoration-none text-reset fw-bold collapsed">
               {% if service.notes %}
                 <span class="service-showhide fw-normal"></span>
               {% endif %}
