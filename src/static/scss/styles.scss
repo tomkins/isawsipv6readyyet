@@ -9,6 +9,10 @@ $bootstrap-icons-font-src: url("~bootstrap-icons/font/fonts/bootstrap-icons.woff
     .service-name.collapsed .service-showhide::after {
         content: '＋';
     }
+    li {
+        list-style-type: " ◦ ";
+        padding-left: 0.5rem;
+    }
 }
 
 .service-score {
