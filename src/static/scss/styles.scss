@@ -4,15 +4,10 @@ $bootstrap-icons-font-src: url("~bootstrap-icons/font/fonts/bootstrap-icons.woff
 
 .service-detail {
     .service-showhide::after {
-        content: '-';
+        content: '－';
     }
     .service-name.collapsed .service-showhide::after {
-        content: '+';
-    }
-
-    ul {
-        padding-top: 1em;
-        padding-left: 1em;
+        content: '＋';
     }
 }
 

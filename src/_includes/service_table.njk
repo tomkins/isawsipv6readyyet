@@ -20,7 +20,7 @@
             </a>
 
             {% if service.notes %}
-              <ul id="service-{{ service.id }}" class="collapse">
+              <ul id="service-{{ service.id }}" class="collapse px-3 py-2">
                 {% for note in service.notes %}
                   <li>{{ note | safe }}</li>
                 {% endfor %}
@@ -31,7 +31,7 @@
             {% if service.score != null %}
               {{ service.score }}/5
             {% else %}
-              -
+              －
             {% endif %}
           </td>
           <td class="service-updated">
