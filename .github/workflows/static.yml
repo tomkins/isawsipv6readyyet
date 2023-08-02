@@ -32,7 +32,7 @@ jobs:
           node-version-file: '.nvmrc'
       - name: Build site
         env:
-          ELEVENTY_BASE_URL: ${{steps.setuppages.outputs.base_url}}
+          ELEVENTY_BASE_URL: ${{steps.setuppages.outputs.base_url}}/
         run: |
           npm ci
           npm run build
