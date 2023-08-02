@@ -24,12 +24,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
+        id: setuppages
         uses: actions/configure-pages@v3
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
       - name: Build site
+        env:
+          ELEVENTY_BASE_URL: ${{steps.setuppages.outputs.base_url}}
         run: |
           npm ci
           npm run build
