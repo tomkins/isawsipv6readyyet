@@ -174,19 +174,29 @@
   {
     "id": "cloudshell",
     "name": "AWS CloudShell",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Shell has IPv4 address only, no IPv6"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "cloudtrail",
     "name": "AWS CloudTrail",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "cloudtrail-data",
     "name": "AWS CloudTrail Data Service",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -402,13 +412,23 @@
   {
     "id": "fargate",
     "name": "AWS Fargate",
-    "score": null,
+    "score": 3,
+    "notes": [
+      "Note: partially includes ECS, as this is an alternative for running ECS tasks",
+      "ECS service endpoint is IPv4 only",
+      "ECS service connect endpoint has AAAA records",
+      "Fargate tasks can use an IPv6 address"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "fis",
     "name": "AWS Fault Injection Simulator",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Available faults only allow IPv4 ranges"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -449,13 +469,19 @@
   {
     "id": "health",
     "name": "AWS Health APIs And Notifications",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "awshealthdashboard",
     "name": "AWS Health Dashboard",
-    "score": null,
+    "score": 2,
+    "notes": [
+      "<a href='https://health.aws.amazon.com/'>health.aws.amazon.com</a> is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1097,7 +1123,11 @@
   {
     "id": "athena",
     "name": "Amazon Athena",
-    "score": null,
+    "score": 5,
+    "notes": [
+      "Service endpoints have AAAA records",
+      "Private endpoints support IPv6"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1175,7 +1205,10 @@
   {
     "id": "cloudwatch",
     "name": "Amazon CloudWatch",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1187,7 +1220,11 @@
   {
     "id": "events",
     "name": "Amazon CloudWatch Events",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "TODO: Test if API destinations support IPv6"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1199,7 +1236,10 @@
   {
     "id": "logs",
     "name": "Amazon CloudWatch Logs",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1307,31 +1347,47 @@
   {
     "id": "devops-guru",
     "name": "Amazon DevOps Guru",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "docdb",
     "name": "Amazon DocumentDB (with MongoDB compatibility)",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Clusters are IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "dynamodb",
     "name": "Amazon DynamoDB",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "dax",
     "name": "Amazon DynamoDB Accelerator",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "dynamodbstreams",
     "name": "Amazon DynamoDB Streams",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1769,19 +1825,29 @@
   {
     "id": "osis",
     "name": "Amazon OpenSearch Ingestion Service",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "opensearchserverless",
     "name": "Amazon OpenSearch Serverless",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "es",
     "name": "Amazon OpenSearch Service",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Search clusters are IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
@@ -1978,31 +2044,46 @@
   {
     "id": "sdb",
     "name": "Amazon SimpleDB",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "textract",
     "name": "Amazon Textract",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "timestream",
     "name": "Amazon Timestream",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "transcribe",
     "name": "Amazon Transcribe",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
     "id": "translate",
     "name": "Amazon Translate",
-    "score": null,
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
     "updated": "2023-08-01"
   },
   {
