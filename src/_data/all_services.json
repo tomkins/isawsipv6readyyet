@@ -511,8 +511,12 @@
   {
     "id": "iam",
     "name": "AWS Identity and Access Management (IAM)",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 1,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "IAM policies support IPv6 where a service uses it"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "rolesanywhere",
@@ -808,14 +812,20 @@
   {
     "id": "proton",
     "name": "AWS Proton",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "rbin",
     "name": "AWS Recycle Bin",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "resiliencehub",
@@ -889,14 +899,21 @@
   {
     "id": "securityhub",
     "name": "AWS Security Hub",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Documentation has barely any mentions on IPv6 rules which apply as controls, only IPv4"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "sts",
     "name": "AWS Security Token Service",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "sms",
@@ -1414,8 +1431,13 @@
   {
     "id": "elasticache",
     "name": "Amazon ElastiCache",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Cache instances can be IPv4, dual stack, or IPv6 only",
+      "Public IPv6 connectivity is not possible (and undocumented, although this would not follow best practice - there should be an option to enable it)"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "ebs",
@@ -1477,8 +1499,11 @@
   {
     "id": "efs",
     "name": "Amazon Elastic File System (EFS)",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "elastic-inference",
@@ -1501,8 +1526,11 @@
   {
     "id": "elastictranscoder",
     "name": "Amazon Elastic Transcoder",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "eventbridge",
@@ -1561,14 +1589,20 @@
   {
     "id": "forecast",
     "name": "Amazon Forecast",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "forecastquery",
     "name": "Amazon Forecast Query",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "frauddetector",
