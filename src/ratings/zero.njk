@@ -1,0 +1,8 @@
+---
+layout: ratings
+title: List of AWS services with an IPv6 rating of 0
+---
+
+{% from "service_table.njk" import service_table %}
+
+{{ service_table(aws_services.zero_score_services) }}
