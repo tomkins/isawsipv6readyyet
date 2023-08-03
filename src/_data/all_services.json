@@ -2066,8 +2066,14 @@
   {
     "id": "s3",
     "name": "Amazon Simple Storage Service (S3)",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "Service endpoints have AAAA records",
+      "Buckets can be accessed over a specific dual stack hostname, rather than configuring a bucket to be dual stack",
+      "S3 website endpoints are IPv4 only",
+      "Private endpoints are IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "swf",
