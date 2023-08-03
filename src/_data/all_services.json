@@ -1856,9 +1856,10 @@
   {
     "id": "macie",
     "name": "Amazon Macie",
-    "score": 0,
+    "score": 2,
     "notes": [
-      "Service endpoint is IPv4 only"
+      "Service endpoint is IPv4 only",
+      "Supports IPv6 addresses in personally identifiable information (PII)"
     ],
     "updated": "2023-08-03"
   },
