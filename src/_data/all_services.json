@@ -144,8 +144,11 @@
   {
     "id": "cloudcontrolapi",
     "name": "AWS Cloud Control API",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "servicediscovery",
@@ -168,8 +171,11 @@
   {
     "id": "cloudhsmv2",
     "name": "AWS CloudHSM",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "cloudshell",
@@ -202,8 +208,11 @@
   {
     "id": "codeartifact",
     "name": "AWS CodeArtifact",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "codebuild",
@@ -244,14 +253,20 @@
   {
     "id": "compute-optimizer",
     "name": "AWS Compute Optimizer",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "config",
     "name": "AWS Config",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "controltower",
@@ -286,14 +301,21 @@
   {
     "id": "datasync",
     "name": "AWS DataSync",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoints are IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "dms",
     "name": "AWS Database Migration Service",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Replication instances can be dual stack"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "deepcomposer",
@@ -304,14 +326,21 @@
   {
     "id": "deeplens",
     "name": "AWS DeepLens",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "A rare instance of an end of life AWS service"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "deepracer",
     "name": "AWS DeepRacer",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint has no DNS records"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "devicefarm",
@@ -400,14 +429,20 @@
   {
     "id": "schemas",
     "name": "AWS EventBridge Schemas",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "pipes",
     "name": "AWS Events Pipes",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "fargate",
@@ -451,14 +486,20 @@
   {
     "id": "glue",
     "name": "AWS Glue",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "databrew",
     "name": "AWS Glue DataBrew",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "groundstation",
@@ -1008,8 +1049,11 @@
   {
     "id": "ssm",
     "name": "AWS Systems Manager",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-02"
   },
   {
     "id": "ssm-contacts",
@@ -1056,8 +1100,14 @@
   {
     "id": "vpn",
     "name": "AWS VPN",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only (uses EC2 endpoint)",
+      "IPv6 traffic can be tunnelled inside a VPN",
+      "VPN can be either IPv4 or IPv6 - not both",
+      "Traffic is carried over IPv4"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "verified-access",
@@ -1068,20 +1118,33 @@
   {
     "id": "waf",
     "name": "AWS WAF",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "This refers to WAFv2",
+      "Service endpoint is IPv4 only",
+      "Support for filtering IPv6 traffic"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "waf-regional",
     "name": "AWS WAF Regional",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 2,
+    "notes": [
+      "This refers to WAF Classic (now deprecated - WAFv2 is preferred)",
+      "Service endpoint is IPv4 only",
+      "Support for filtering IPv6 traffic, although CIDR filtering options are limited"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "wellarchitectedtool",
     "name": "AWS Well-Architected Tool",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "wickr",
@@ -1216,8 +1279,11 @@
   {
     "id": "cloudsearch",
     "name": "Amazon CloudSearch",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "cloudwatch",
@@ -1775,8 +1841,11 @@
   {
     "id": "mq",
     "name": "Amazon MQ",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "machinelearning",
@@ -1787,8 +1856,11 @@
   {
     "id": "macie",
     "name": "Amazon Macie",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "managedblockchain",
@@ -2141,8 +2213,14 @@
   {
     "id": "vpc",
     "name": "Amazon Virtual Private Cloud (VPC)",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv4 only (uses EC2 service endpoint)",
+      "VPC can be allocated a /56, with /64 allocated to zone subnets",
+      "IPv6 is not enabled for default VPC, and is not a standard when creating a VPC in the webconsole",
+      "Reachability analyser is IPv4 only for IP addresses"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "voice-id",
@@ -2326,8 +2404,12 @@
   {
     "id": "arc-zonal-shift",
     "name": "Route53 Application Recovery Controller - Zonal Shift",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 1,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Has a readiness rule for IPv6 CIDR blocks"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "ssm-incidents",
@@ -2344,14 +2426,20 @@
   {
     "id": "scheduler",
     "name": "Scheduler",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "service-quotas",
     "name": "Service Quotas",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-03"
   },
   {
     "id": "snow-device-management",
