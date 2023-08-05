@@ -1102,12 +1102,12 @@
     "name": "AWS VPN",
     "score": 2,
     "notes": [
-      "Service endpoint is IPv4 only (uses EC2 endpoint)",
+      "Service endpoint is IPv6 in some regions only (uses EC2 endpoint)",
       "IPv6 traffic can be tunnelled inside a VPN",
       "VPN can be either IPv4 or IPv6 - not both",
       "Traffic is carried over IPv4"
     ],
-    "updated": "2023-08-03"
+    "updated": "2023-08-05"
   },
   {
     "id": "verified-access",
