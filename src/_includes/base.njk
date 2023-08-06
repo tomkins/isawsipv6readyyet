@@ -24,36 +24,33 @@
     <div class="container">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-
-          <span class="fs-4"><i class="bi bi-cloud-drizzle-fill"></i> Is AWS IPv6 ready yet?</span>
+          <span class="fs-4"><i class="bi bi-cloud-drizzle-fill" aria-hidden="true"></i> Is AWS IPv6 ready yet?</span>
         </a>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="{{ '/' | url }}" class="nav-link {{ 'active' if page.url == '/' }}">Home</a></li>
-          <li class="nav-item"><a href="{{ '/ratings/' | url }}" class="nav-link {{ 'active' if '/ratings/' in page.url }}">Ratings</a></li>
-          <li class="nav-item"><a href="{{ '/about/' | url }}" class="nav-link {{ 'active' if page.url == '/about/' }}">About</a></li>
-          <li class="nav-item"><a href="https://github.com/tomkins/isawsipv6readyyet" target="_blank" class="nav-link"><i class="bi bi-github"></i> GitHub</a></li>
-        </ul>
+        <nav class="nav nav-pills justify-content-center">
+          <a href="{{ '/' | url }}" class="nav-link {{ 'active' if page.url == '/' }}">Home</a>
+          <a href="{{ '/ratings/' | url }}" class="nav-link {{ 'active' if '/ratings/' in page.url }}">Ratings</a>
+          <a href="{{ '/about/' | url }}" class="nav-link {{ 'active' if page.url == '/about/' }}">About</a>
+          <a href="https://github.com/tomkins/isawsipv6readyyet" target="_blank" class="nav-link"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+        </nav>
       </header>
     </div>
-    <div id="app">
-      <div id="main-container" role="document">
-        <main role="main">
-          {% block main %}
-          <div class="container-xxl">
-            <div class="col-md-9 px-3 mx-auto">
-              {% block content %}
-              {{ content | safe }}
-              {% endblock content %}
-            </div>
-          </div>
-          {% endblock main %}
-        </main>
+    <main>
+      {% block main %}
+      <div class="container-md">
+        <div class="col-lg-9 mx-auto">
+          {% block content %}
+          {{ content | safe }}
+          {% endblock content %}
+        </div>
       </div>
-    </div>
+      {% endblock main %}
+    </main>
 
     <footer class="col-md-9 pt-5 mx-auto">
-      <p class="text-center text-body-secondary border-top p-3">This is not an official AWS site. Amazon Web Services, AWS, and various AWS services are trademarks of Amazon.com, Inc. or its affiliates.</p>
+      <p class="text-center text-body-secondary border-top p-3">
+        This is not an official AWS site. Amazon Web Services, AWS, and various AWS services are trademarks of Amazon.com, Inc. or its affiliates.
+      </p>
     </footer>
 
     <script src="{{ '/static/js/main.js' | url }}"></script>
