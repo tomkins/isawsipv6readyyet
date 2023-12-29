@@ -847,8 +847,12 @@
   {
     "id": "privatelink",
     "name": "AWS PrivateLink",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 4,
+    "notes": [
+      "Service endpoint is IPv6 in some regions only (uses EC2 endpoint)",
+      "PrivateLink endpoint can be IPv4, dual stack, or IPv6 only"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "proton",
@@ -983,8 +987,12 @@
   {
     "id": "shield",
     "name": "AWS Shield",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Supports IPv6 resources"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "signer",
@@ -1082,8 +1090,13 @@
   {
     "id": "transitgateway",
     "name": "AWS Transit Gateway",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 3,
+    "notes": [
+      "Service endpoint is IPv6 in some regions only (uses EC2 endpoint)",
+      "Supports IPv6 traffic",
+      "Can't create a transit gateway attachment using IPv6-only subnets"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "trustedadvisor",
@@ -2250,20 +2263,31 @@
   {
     "id": "workspaces",
     "name": "Amazon WorkSpaces",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 2,
+    "notes": [
+      "Service endpoint is IPv4 only",
+      "Workspace instances can use IPv6 traffic",
+      "Workspace client does not support IPv6"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "wam",
     "name": "Amazon WorkSpaces Application Manager",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service is EOL (September 2023)"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "workspaces-web",
     "name": "Amazon WorkSpaces Web",
-    "score": null,
-    "updated": "2023-08-01"
+    "score": 0,
+    "notes": [
+      "Service endpoint is IPv4 only"
+    ],
+    "updated": "2023-08-05"
   },
   {
     "id": "apigatewaymanagementapi",
