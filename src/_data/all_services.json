@@ -1774,12 +1774,6 @@
     "updated": "2023-08-01"
   },
   {
-    "id": "gamesparks",
-    "name": "Amazon GameSparks",
-    "score": null,
-    "updated": "2023-08-01"
-  },
-  {
     "id": "glacier",
     "name": "Amazon Glacier",
     "score": null,
