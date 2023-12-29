@@ -556,6 +556,18 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "ahl",
+    "name": "AWS HealthLake",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
+    "id": "omics",
+    "name": "AWS HealthOmics",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
     "id": "accessanalyzer",
     "name": "AWS IAM Access Analyzer",
     "score": null,
@@ -1780,12 +1792,6 @@
     "updated": "2023-08-01"
   },
   {
-    "id": "ahl",
-    "name": "Amazon HealthLake",
-    "score": null,
-    "updated": "2023-08-01"
-  },
-  {
     "id": "honeycode",
     "name": "Amazon Honeycode",
     "score": null,
@@ -1836,12 +1842,6 @@
   {
     "id": "mcs",
     "name": "Amazon Keyspaces (for Apache Cassandra)",
-    "score": null,
-    "updated": "2023-08-01"
-  },
-  {
-    "id": "kinesisanalytics",
-    "name": "Amazon Kinesis Data Analytics",
     "score": null,
     "updated": "2023-08-01"
   },
@@ -1961,6 +1961,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "kinesisanalytics",
+    "name": "Amazon Managed Service for Apache Flink",
+    "score": null,
+    "updated": "2023-08-01"
+  },
+  {
     "id": "aps",
     "name": "Amazon Managed Service for Prometheus",
     "score": null,
@@ -2005,12 +2011,6 @@
   {
     "id": "nimble",
     "name": "Amazon Nimble Studio",
-    "score": null,
-    "updated": "2023-08-01"
-  },
-  {
-    "id": "omics",
-    "name": "Amazon Omics",
     "score": null,
     "updated": "2023-08-01"
   },
