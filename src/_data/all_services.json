@@ -36,6 +36,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "aws-appfabric",
+    "name": "AWS AppFabric",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "appsync",
     "name": "AWS AppSync",
     "score": null,
@@ -76,6 +82,12 @@
     "name": "AWS Auto Scaling",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "b2bi",
+    "name": "AWS B2B Data Interchange",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "backup",
@@ -140,6 +152,12 @@
     "name": "AWS Clean Rooms",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "cleanroomsml",
+    "name": "AWS Clean Rooms ML",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "cloudcontrolapi",
@@ -427,6 +445,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "entityresolution",
+    "name": "AWS Entity Resolution",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "schemas",
     "name": "AWS EventBridge Schemas",
     "score": 0,
@@ -692,6 +716,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "launch-wizard",
+    "name": "AWS Launch Wizard",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "launchwizard",
     "name": "AWS Launch Wizard",
     "score": null,
@@ -822,6 +852,12 @@
     "name": "AWS Panorama",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "payment-cryptography",
+    "name": "AWS Payment Cryptography",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "pricing",
@@ -1076,6 +1112,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "tnb",
+    "name": "AWS Telco Network Builder",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "timestream-write",
     "name": "AWS Timestream Write Service",
     "score": null,
@@ -1172,6 +1214,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "repostspace",
+    "name": "AWS re:Post Private",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "identitystore",
     "name": "AWSIdentityStore",
     "score": null,
@@ -1234,6 +1282,12 @@
     "name": "Amazon Aurora",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "bedrock",
+    "name": "Amazon Bedrock",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "braket",
@@ -1435,6 +1489,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "datazone",
+    "name": "Amazon DataZone",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "detective",
     "name": "Amazon Detective",
     "score": null,
@@ -1494,6 +1554,12 @@
       "Service endpoint is IPv4 only"
     ],
     "updated": "2023-08-01"
+  },
+  {
+    "id": "eks-auth",
+    "name": "Amazon EKS Auth",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "emr-containers",
@@ -1883,6 +1949,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "managedblockchain-query",
+    "name": "Amazon Managed Blockchain - Query SDK",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "grafana",
     "name": "Amazon Managed Grafana",
     "score": null,
@@ -2043,6 +2115,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "redshift-serverless",
+    "name": "Amazon Redshift Serverless",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "rekognition",
     "name": "Amazon Rekognition",
     "score": null,
@@ -2072,6 +2150,12 @@
       "Health checks can connect to IPv6 servers"
     ],
     "updated": "2023-08-01"
+  },
+  {
+    "id": "route53-application-recovery-controller",
+    "name": "Amazon Route 53 Application Recovery Controller",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "route53domains",
@@ -2281,6 +2365,12 @@
     "updated": "2023-08-05"
   },
   {
+    "id": "thinclient",
+    "name": "Amazon WorkSpaces Thin Client",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "workspaces-web",
     "name": "Amazon WorkSpaces Web",
     "score": 0,
@@ -2338,6 +2428,12 @@
     "updated": "2023-08-01"
   },
   {
+    "id": "cost-optimization-hub",
+    "name": "Cost Optimization Hub",
+    "score": null,
+    "updated": "2023-12-29"
+  },
+  {
     "id": "imagebuilder",
     "name": "EC2 Image Builder",
     "score": null,
@@ -2359,6 +2455,12 @@
     "name": "FreeRTOS",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "inspector-scan",
+    "name": "Inspector Scan",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "internetmonitor",
@@ -2401,6 +2503,12 @@
     "name": "Observability Access Manager",
     "score": null,
     "updated": "2023-08-01"
+  },
+  {
+    "id": "pca-connector-ad",
+    "name": "Private CA Connector for Active Directory",
+    "score": null,
+    "updated": "2023-12-29"
   },
   {
     "id": "rds-data",
